@@ -14,7 +14,7 @@ edges:
     registered_name: com.ntop/docs
     register_id: com.ntop/docs
     detected_by: sweep-agent-tools.py
-    detected: '2026-10-14'
+    detected: '2026-10-15'
   mcp_registry:
     servers:
     - com.ntop/docs

@@ -1,16 +1,16 @@
 ---
 kin_checks:
-  slug: ntop
+  slug: ntop-com
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  run_ts: 2026-10-03T024842
+  scored_at: '2026-10-11'
+  run_ts: 2026-10-11T110117
   note: Actionable checks (missed + partial) in `checks`, plus the ids that did not
     apply in `na`. Everything else in rubric/scoring-0.23.0.yml was earned; counts
     below let you verify that.
   counts:
     total: 153
-    earned: 20
-    partial: 3
+    earned: 21
+    partial: 2
     missed: 85
     na: 45
   checks:
@@ -25,6 +25,8 @@ kin_checks:
   - id: base_url_per_api
     status: missed
   - id: well_known_published
+    status: missed
+  - id: llms_txt_published
     status: missed
   - id: apis_json_self_hosted
     status: missed
@@ -96,9 +98,6 @@ kin_checks:
     status: missed
   - id: pricing_link
     status: missed
-  - id: sign_up_present
-    status: missed
-    detail: pointer liveness 0.0
   - id: finops_mapped
     status: missed
   - id: compliance_published
@@ -188,13 +187,9 @@ kin_checks:
   - id: mcp_endpoint_discoverable
     status: partial
     earned: 2.0
-  - id: github_org_present
-    status: partial
-    earned: 1.0
-    detail: pointer liveness 0.5
   - id: mcp_server
     status: partial
-    earned: 4.8
+    earned: 4.32
     detail: 'grade: documented'
   na:
   - asyncapi_3_x
