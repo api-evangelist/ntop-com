@@ -64,6 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-nTop is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: manufacturing. This profile is a lead awaiting the enrichment pipeline.
+nTop (formerly nTopology) is computational design and engineering software for advanced and additive manufacturing. Its field-driven, implicit modeling engine lets engineers build reusable, logic-driven design workflows and systematically explore hundreds of design variants with manufacturing constraints, performance requirements, and simulation built in — spanning lattices, conformal structures, design-for-additive-manufacturing, and topology-informed optimization across aerospace, automotive, medical, and industrial applications. Beyond the desktop application, nTop exposes a developer surface: the nTop Core SDK (a native Windows DLL with C++, .NET, and Python bindings for querying implicit bodies), nTop Automate for headless workflow automation, extensive Mintlify-hosted documentation, and a public documentation MCP server for agent-based retrieval.
 
-Backed by: insight-partners — https://www.ntop.com/
+**Areas:** Company · Manufacturing · Computational Design · 3D Printing · Engineering Software · 3D Modeling · CAD · Design Automation · SDK · Engineering · Generative Design · Simulation
+
+## nTop on APIs.io
+
+Everything profiled for nTop is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ntop-com/](https://apis.io/providers/ntop-com/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [nTop](https://apis.io/servers/ntop-com/ntop/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ntop Domain Security](https://apis.io/security/ntop-com/ntop-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ntop.com/)
+- [Documentation](https://docs.ntop.com/Product-Documentation/ntop/welcome)
+- [Getting started](https://docs.ntop.com/Product-Documentation/ntop/_getting_started)
+- [API reference](https://docs.ntop.com/Product-Documentation/ntop-core/readme)
+- [Sign up](https://app.ntop.com/login)
+- [Support](https://support.ntop.com/hc/en-us)
+- [Changelog](https://docs.ntop.com/Product-Documentation/ntop/release-notes/version-5.51)
+- [Blog](https://www.ntop.com/resources/blog/)
+- [Terms of service](https://www.ntop.com/terms-of-use/)
+- [Privacy policy](https://www.ntop.com/privacy-policy/)
+- [GitHub](https://github.com/nTopology)
+
+## API Evangelist rating
+
+**Kin Score 25.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 34.2 |
+
+**Agent readiness 3.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ntop-com/](https://apis.io/providers/ntop-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for nTop: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ntop-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
